@@ -1,0 +1,82 @@
+.tilt-neon-uniquifier {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+}
+@font-face {
+    font-family: 'BabyGemoy';
+    src: url('fonts/Baby Gemoy.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+h2 {
+    font-family: "Tilt Neon";
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow:
+        0 0 5px #ad49e1,
+        0 0 10px #ad49e1,
+        0 0 20px #ad49e1,
+        0 0 40px #ad49e1,
+        0 0 80px #ad49e1;
+    font-weight: 100;
+}
+body {
+    background-color: #ebd3f8;
+}
+p {
+    color: #2e073f;
+    background-color: #f1eaff;
+    border: 2px solid white;
+    padding: 20px;
+    max-width: 900px;
+    box-shadow:
+        0 0 1px #ad49e1,
+        0 0 2px #ad49e1,
+        0 0 4px #ad49e1,
+        0 0 8px #ad49e1,
+        0 0 16px #ad49e1;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 100px;
+    height: auto;
+}
+.center-screen {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.title /*h1*/ {
+    font-family: 'BabyGemoy', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-shadow:
+        0 0 5px #ad49e1,
+        0 0 10px #ad49e1,
+        0 0 20px #ad49e1,
+        0 0 40px #ad49e1,
+        0 0 80px #ad49e1;
+    font-weight: 100;
+    max-width: 900px;
+}
