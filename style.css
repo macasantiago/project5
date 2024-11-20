@@ -12,10 +12,22 @@
     font-style: normal;
     font-variation-settings: "wdth" 87.5;
 }
-h2 {
-    font-family: "Sour Gummy";
+h1 {
+    font-family: "DynaPuff", sans-serif;
     text-align: center;
     font-size: 3em;
+    color: white;
+    text-shadow:
+        0 0 5px #ad49e1,
+        0 0 10px #ad49e1,
+        0 0 20px #ad49e1,
+        0 0 40px #ad49e1,
+        0 0 80px #ad49e1;
+}
+h2 {
+    font-family: "DynaPuff";
+    text-align: center;
+    font-size: 2.75em;
     color: white;
     text-shadow:
         0 0 5px #ad49e1,
@@ -46,29 +58,48 @@ p {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
-img {
-    width: 100px;
-    height: auto;
-}
-.center-screen {
-    display: flex;
-    justify-content: center;
+text{
+    color: #2e073f;
+    background-color: #f1eaff;
+    border: 2px solid white;
+    padding: 20px;
+    max-width: 900px;
+    box-shadow:
+        0 0 1px #ad49e1,
+        0 0 2px #ad49e1,
+        0 0 4px #ad49e1,
+        0 0 8px #ad49e1,
+        0 0 16px #ad49e1;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.content {
+.container {
     display: flex;
-    align-items: center;
-    gap: 10px;
+}
+.column {
+    flex: 1;
     padding: 10px;
 }
-.title /*h1*/ {
-    font-family: "DynaPuff", sans-serif;
-    text-align: center;
-    font-size: 3em;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow:
+        0 0 5px #ad49e1,
+        0 0 10px #ad49e1,
+        0 0 20px #ad49e1,
+        0 0 40px #ad49e1,
+        0 0 80px #ad49e1;
+}
+h3 {
+    font-family: "Sour Gummy";
+    text-align: left;
+    font-size: 2em;
     color: white;
     text-shadow:
         0 0 5px #ad49e1,
@@ -77,6 +108,17 @@ img {
         0 0 40px #ad49e1,
         0 0 80px #ad49e1;
     font-weight: 100;
-    max-width: 900px;
 }
-
+h4 {
+    font-family: "Sour Gummy";
+    text-align: left;
+    font-size: 1.7em;
+    color: white;
+    text-shadow:
+        0 0 5px #ad49e1,
+        0 0 10px #ad49e1,
+        0 0 20px #ad49e1,
+        0 0 40px #ad49e1,
+        0 0 80px #ad49e1;
+    font-weight: 100;
+}
