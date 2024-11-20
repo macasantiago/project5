@@ -1,5 +1,5 @@
 .sour-gummy-uniquifier {
-  font-family: "Sour Gummy", serif;
+  font-family: "SourGummy", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -7,7 +7,7 @@
     "wdth" 100;
 }
 .dynapuff-uniquifier {
-  font-family: "Dyna Puff", serif;
+  font-family: "DynaPuff", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -15,7 +15,7 @@
     "wdth" 87.5;
 }
 h2 {
-    font-family: "Sour Gummy";
+    font-family: "SourGummy";
     text-align: center;
     font-size: 3em;
     color: white;
@@ -64,7 +64,7 @@ img {
     padding: 10px;
 }
 .title /*h1*/ {
-    font-family: "Dyna Puff", sans-serif;
+    font-family: "DynaPuff", sans-serif;
     text-align: center;
     font-size: 3em;
     position: relative;
