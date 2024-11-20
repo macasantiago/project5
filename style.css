@@ -1,18 +1,16 @@
 .sour-gummy-uniquifier {
-  font-family: "Sour Gummy", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 .dynapuff-uniquifier {
-  font-family: "DynaPuff", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 87.5;
+    font-family: "DynaPuff", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 87.5;
 }
 h2 {
     font-family: "Sour Gummy";
@@ -42,7 +40,7 @@ p {
         0 0 4px #ad49e1,
         0 0 8px #ad49e1,
         0 0 16px #ad49e1;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -81,3 +79,4 @@ img {
     font-weight: 100;
     max-width: 900px;
 }
+
