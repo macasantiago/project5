@@ -107,7 +107,7 @@ h3 {
         0 0 20px #ad49e1,
         0 0 40px #ad49e1,
         0 0 80px #ad49e1;
-    font-weight: 100;
+    font-weight: 100, bold;
 }
 h4 {
     font-family: "Sour Gummy";
@@ -120,5 +120,5 @@ h4 {
         0 0 20px #ad49e1,
         0 0 40px #ad49e1,
         0 0 80px #ad49e1;
-    font-weight: 100;
+    font-weight: 100, bold;
 }
