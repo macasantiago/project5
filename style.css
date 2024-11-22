@@ -122,3 +122,6 @@ h4 {
         0 0 80px #ad49e1;
     font-weight: 100, bold;
 }
+iframe {
+   max-width: 100%;
+}
